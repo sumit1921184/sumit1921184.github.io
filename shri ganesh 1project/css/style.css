@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+ 
+  /*background-color: red;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font1);
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.nav-left {
+  font-size: 20px;
+  
+  display: flex;
+}
+.nav-left div {
+  font-size: 23px;
+  
+}
+.nav-left ul {
+  display: flex;
+  margin: 6px 55px;
+  font-size: 1.1rem;
+}
+.nav-left ul li {
+  list-style: none;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  font-family: var(--font2);
+  font-weight: bold;
+  padding: 5px;
+}
+
+.nav-left ul li a:hover,.nav-a {
+  color: rgb(250, 6, 6);
+  
+}
+.content-left {
+  font-family: var(--font1);
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-right img {
+  border: 2px solid black;
+  border-radius: 100%;
+  height: 260px;
+  width: 280px;
+  z-index: 1;
+}
+.content {
+  height: 100%;
+  /*background-color: blue;*/
+  display: flex;
+  position: relative;
+}
+
+.content::after {
+  content: "";
+  background: url(/bg3.jpg) no-repeat center center/cover;
+  z-index: -1;
+  position: absolute;
+
+  width: 100%;
+  height: inherit;
+  opacity: 0.2;
+}
+.nav-left div a{
+  text-decoration: none;
+  color:black;
+}
+
+.home-articles {
+  
+  background-color: rgb(255, 233, 240, 0.6);
+  font-family: var(--font1);
+  position: relative;
+}
+ .year-box{
+  position: absolute;
+  
+  color:red;
+  right: 86px;
+  top: 35px;
+}
+.home-articles h2 {
+  padding: 0px 35px;
+}
+.home-article {
+  display: flex;
+  padding: 10px 40px;
+}
+.home-article-content {
+  line-height: 18pt;
+  align-self: center;
+  margin-left: 10px;
+}
+.home-article-content a{
+  text-decoration: none;
+  color: rgb(131, 30, 52);
+}
+.home-article-content a:hover{
+  color:red;
+}
+.home-article-img {
+  width: 265px;
+  height: 213px;
+}
+.home-article-img img {
+  width: 265px;
+  height: 213px;
+}
+.home-article span {
+  color: black;
+}
+
+.footer {
+  color: white;
+  margin-top: 15px;
+  height: 50px;
+  background-color: rgb(15, 17, 17);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
