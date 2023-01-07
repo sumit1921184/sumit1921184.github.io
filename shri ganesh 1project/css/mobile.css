@@ -107,6 +107,9 @@ margin: 17px auto;
     padding: 11px;
     flex-direction: column;
 }
+.nav-right form input{
+    width:50%;
+}
 }
 
 
