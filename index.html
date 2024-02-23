@@ -1,0 +1,255 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Jha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./dist/github-calendar.css">
+    <link rel="stylesheet" href="./dist/github-calendar-responsive.css">
+</head>
+
+<body>
+   
+
+    <div id="nav-menu">
+        <nav>
+            <a href="#" class="logo" style="color:#d6d6eb;">Sumit</a>
+            <ul id="sidemenu">
+                <li><a class="nav-link home" href="#">Home</a></li>
+                <li><a class="nav-link about" href="#about">About</a></li>
+                <li><a class="nav-link skills" href="#skills">Skills</a></li>
+                <li><a class="nav-link projects" href="#projects">Projects</a></li>
+                <li><a class="nav-link contact" href="#contact">Contact</a></li>
+                <li id="resume-button-1"><a class="nav-link resume" id="resume-link-1" href="./images/resume.pdf" download="Sumit-Jha-Resume">Resume</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+
+    <div id="home">
+        <div id="one">
+            <div id="user-detail-name" class="text-2">Hi There! <span className="hi">👋🏻</span><br>
+                I am <span>Sumit Kumar Jha</span></div>
+            <div id="user-detail-profession">
+                <p class="text-3">A Full Stack Web Developer</p>
+            </div>
+            <button id="resume-button-2"><a style="color:black"  href="./images/resume.pdf" download="Sumit-Jha-Resume" id="resume-link-2">Resume</a></button>
+            
+        </div>
+        <div id="two">
+            <img src="./images/home.webp" class="home-img" alt="profile picture">
+        </div>
+    </div> 
+    <section id="about" class="about section">
+        <div id="aboutheader" class="headers">About</div>
+        <div id="ab">
+            <div id="aboutmelogo" >
+                <img id="about_profile" width="100%" src="./images/sumit3.jpg" alt="about logo">
+            </div>
+            <div id="user-detail-intro"> A passionate Full Stack Web Developer, a lifelong learner with a
+                strong foundation in both front-end and back-end development.
+                Possessing expertise in HTML, CSS, JavaScript, React, and MongoDB,
+                excels at adapting to new technologies swiftly and paying meticulous
+                attention to details.
+            </div>
+        </div>
+    </section>
+
+    <div id="skills">
+        <div id="skillheader" class="headers">SKILLS</div>
+        <div id="sk">
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/stacks/javascript.png" alt="javascript icon">
+                <p class="skills-card-name">javascript</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/stacks/html.png" alt="HTML icon">
+                <p class="skills-card-name">HTML</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/stacks/css.png" alt="CSS icon">
+                <p class="skills-card-name">CSS</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/stacks/nodejs.png" alt="Nodejs icon">
+                <p class="skills-card-name">Nodejs</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/stacks/mongodb.png" alt="MongoDb icon">
+                <p class="skills-card-name">MongoDB</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/stacks/express.png" alt="Express icon">
+                <p class="skills-card-name">Express</p>
+            </div>
+            
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/stacks/sql.png" alt="SQL icon">
+                <p class="skills-card-name">SQL</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/stacks/github.png" alt="Github icon">
+                <p class="skills-card-name">Github</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/stacks/postman.png" alt="Postman icon">
+                <p class="skills-card-name">Postman</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/stacks/netlify.png" alt="Netlify icon">
+                <p class="skills-card-name">Netlify</p>
+            </div>
+            
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/stacks/dsa.png" alt="dsa icon">
+                <p class="skills-card-name">DSA</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/stacks/visual-studio.png" alt="vs icon">
+                <p class="skills-card-name">VS Code</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="projects">
+        <div id="projectheader" class="headers">PROJECTS</div>
+        <div id="pro">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/project/figma.jpeg" alt="moneyup image">
+                </div>
+                <div class="project-details">
+                    <div class="project-title">Figma design with sass</div>
+                    <div class="project-description">It is a application which is made from figma design and mainly focus on pixel perfectness and good quality UI.</div>
+                    <div class="project-tech-stack">Tech Stacks: HTML | CSS | SCSS</div>
+                    <a target="_blank" href="https://github.com/Hari3199/innovative-byte-6543"><button class="project-github-link probtn">code</button></a>
+                    <a target="_blank" href="https://innovative-bytes-figma.netlify.app/"><button class="project-deployed-link probtn">live</button></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/project/boat.png" alt="moneyup image">
+                </div>
+                <div class="project-details">
+                    <div class="project-title">Boat Lifestyle Clone</div>
+                    <div class="project-description">Boat Lifestyle is a e-commerce website which deals with electronic items like smartwatches, battery, speaker etc</div>
+                    <div class="project-tech-stack">Tech Stacks: HTML | CSS | Bootstrap</div>
+                    <a target="_blank" href="https://github.com/Hari3199/innovative-byte-6543"><button class="project-github-link probtn">code</button></a>
+                    <a target="_blank" href="https://innovative-byte-project-bootstrap.netlify.app/"><button class="project-deployed-link probtn">live</button></a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/project/LLP.jpeg" alt="tesfaye image">
+                </div>
+                <div class="project-details">
+                    <div class="project-title">Language Learning App</div>
+                    <div class="project-description">Language learning App is a website where users can learn any language by taking subscription, there are many languages available to learn also quizes are there to test knowledge.</div>
+                    <div class="project-tech-stack">Tech Stacks: HTML | CSS | JavaScript</div>
+                    <a target="_blank" href="https://github.com/abhishekhzb12/bug-nirikshak-5678"><button class="project-github-link probtn">code</button></a>
+                    <a target="_blank" href="https://65ae1248e8f5d6f84a594efd--gilded-babka-e8f807.netlify.app/"><button class="project-deployed-link probtn">live</button></a>
+                </div>
+            </div>
+          
+                
+        </div>
+    </div>
+
+
+
+    <div class="react-activity-calendar">
+        <div id="githubheader" class="headers">
+            GITHUB STATS
+        </div>
+        
+        <div id="github-calendar"></div>
+            <div id="git_stats">
+                <div>
+                <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=Sumit1921184&theme=tokyonight"/>
+                </div>
+                <div >
+                <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sumit1921184&theme=tokyonight" />
+                </div>
+                <div >
+                <img id="github-stats-card"
+                src="https://github-readme-stats.vercel.app/api?username=Sumit1921184&count_private=true&theme=tokyonight"
+                alt="stat-card" />
+                </div>
+                
+            </div> 
+            <div class="git-g"><a href="https://github.com/sumit1921184"><img alt="Sumit Activity" src="https://github-readme-activity-graph.vercel.app/graph?username=sumit1921184&bg_color=ffcfe9&color=9e4c98&line=9e4c98&point=403d3d&area=true&hide_border=true" /></a></div>
+    </div> 
+    
+       <div id="contact">
+        <div id="contactheader" class="headers">Connect With Me</div>
+        <div class="mee" style="margin: auto; width: 90%;">
+            Please do not hesitate to reach out using the contact information provided below. Whether you have queries, feedback, or just want to say hi, I am here and eager to connect. Let's get in touch and explore how we can work together to achieve our goals.
+        </div>
+        <div id="contact_inner">
+            <div>
+                <a target="_blank" href="https://github.com/sumit1921184?tab=overview&from=2024-02-01&to=2024-02-18"><i class="fa-brands fa-github"></i></a>
+                <a target="_blank" id="contact-github" href="https://github.com/sumit1921184?tab=overview&from=2024-02-01&to=2024-02-18"></i>GitHub</a>
+               </div>
+              <div>
+                <a target="_blank" href="https://www.linkedin.com/in/sumit-kumar-jha-050156217/"><i class="fa-brands fa-linkedin"></i></a>
+                <a target="_blank" id="contact-linkedin" href="https://www.linkedin.com/in/sumit-kumar-jha-050156217/">LinkedIn</a>
+              </div>
+              
+              <div>
+                <a target="_blank" href="#contact"><i class="fa-solid fa-envelope"></i></a>
+                <a target="_blank" id="contact-email" href="#contact">jha43074@gmail.com</a>
+              </div>
+              <div>
+                <a target="_blank" href="#contact"><i class="fa-sharp fa-solid fa-phone"></i></a>
+                <a target="_blank" id="contact-phone" href="#contact">9286501193</a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer id="footer">
+        <h3>All Rights Reserved</h3>
+        <h3>Design and Developed by Sumit Kumar Jha</h3>
+    </footer>
+    
+</body>
+
+</html>
+
+<script src="./index.js"></script>
+
+<script src="./dist/github-calendar.min.js"></script>
+
+<script>
+  const username = "Sumit1921184";
+  const url = `https://api.github.com/users/${username}/events`;
+
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      const calendarData = {};
+      data.forEach(event => {
+        const date = new Date(event.created_at).toISOString().slice(0, 10);
+        if (event.type === "PushEvent") {
+          if (!calendarData[date]) {
+            calendarData[date] = 0;
+          }
+          calendarData[date]++;
+        }
+      });
+
+      const calendar = new GitHubCalendar("#github-calendar", username, { responsive: true });
+      calendar.draw(calendarData);
+    })
+    .catch(error => console.error(error));
+</script>
+
